@@ -40,10 +40,9 @@ public class Item {
 
     @Override
     public String toString() {
-        return "Item{" +
-                "qntd=" + qntd +
-                ", value=" + value +
-                ", name='" + name + '\'' +
-                '}';
+        return "Item " +
+                "nome " + name +
+                ", valor " + value +
+                ", qntd " + qntd;
     }
 }
